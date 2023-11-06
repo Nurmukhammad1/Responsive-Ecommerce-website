@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Ecommerce-website</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <nav>
+        <div class="top-nav">
+            <div class="container tn-container">
+                <div class="info">
+                    <span><i class="ri-mail-fill"></i>email@gmail.com</span>
+                    <span><i class="ri-map-pin-fill"></i>123, Main st.</span>
+                </div>
+                <div class="tn-btns">
+                    <div class="social-icons">
+                        <i class="ri-facebook-fill"></i>
+                        <i class="ri-linkedin-fill"></i>
+                        <i class="ri-github-fill"></i>
+                        <i class="ri-instagram-fill"></i>
+                    </div>
+                    <div>
+                        <i class="ri-exchange-dollar-fill"></i>
+                        <select name="" id="currency-select">
+                            <option value="">USD</option>
+                            <option value="">EUR</option>
+                            <option value="">JPY</option>
+                        </select>
+                    </div>
+                    <a href="#"><i class="ri-user-fill"></i>Login</a>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-nav">
+            <div class="container bn-container">
+                <div class="logo">
+                    <div>designers</div>
+                    <div>store</div>
+                </div>
+                <ul class="navlist">
+                    <li><a href="#home">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#shop">shop</a></li>
+                    <li><a href="#women">women</a></li>
+                    <li><a href="#men">men</a></li>
+                    <li><a href="#pages">pages</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+                <div class="icons">
+                    <div class="menu-btn">
+                        <i class="ri-menu-2-fill"></i>
+                    </div>
+                    <i class="ri-heart-fill"></i>
+                    <div class="cart">
+                        <i class="ri-shopping-cart-fill"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header class="header">
+        <div class="container">
+            <form action="" class="search-form">
+                <label for="search-box" class="ri-search-line"></label>
+                <input type="search" id="search-box" placeholder="Search here...">
+                <button type="submit" class="btn">Search</button>
+            </form>
+        </div>
+    </header>
+
+
+    <!-- Home -->
+
+    <section class="home" id="home">
+        <div class="container home-container">
+            <div class="left">
+                <span class="heading">
+                    <i class="ri-search-line"></i>
+                    <span>categories</span>
+                    <i class="ri-arrow-down-s-fill"></i>
+                </span>
+                <ul class="dept-list">
+                    <li><a href="#">Accessories</a></li>
+                    <li><a href="#">Cosmetics</a></li>
+                    <li><a href="#">Electronics</a></li>
+                    <li><a href="#">Kid's collection</a></li>
+                    <li><a href="#">Men's fashion</a></li>
+                    <li><a href="#">Women's fashion</a></li>
+                    <li><a href="#">Latest designs</a></li>
+                    <li><a href="#">Trendy designs</a></li>
+                    <li><a href="#">Best seller</a></li>
+                    <li><a href="#">Discount offer</a></li>
+                </ul>
+            </div>
+            <div class="right">
+                <div class="col col-1">
+                    <div class="box">
+                        <div class="image">
+                            <img src="assets/bg1.jpg" alt="">
+                            <div class="info">
+                                <h4>Women's collection</h4>
+                                <p>634 items</p>
+                                <button class="btn">shop now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-2">
+                    <div class="box">
+                        <div class="image">
+                            <img src="assets/bg22.jpg" alt="">
+                            <div class="info">
+                                <h4>Men's collection</h4>
+                                <p>313 items</p>
+                                <button class="btn">shop now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="image image2">
+                            <img src="assets/bg3.jpg" alt="">
+                            <div class="info">
+                                <h4>Kids's collection</h4>
+                                <p>713 items</p>
+                                <button class="btn">shop now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="container about-container">
+            <div class="box">
+                <i class="ri-flight-takeoff-line"></i>
+                <div class="info">
+                    <h4>Free shipping</h4>
+                    <p>order over 100$</p>
+                </div>
+            </div>
+            <div class="box">
+                <i class="ri-tools-line"></i>
+                <div class="info">
+                    <h4>24/7 support</h4>
+                    <p>Dedicted support</p>
+                </div>
+            </div>
+            <div class="box">
+                <i class="ri-lock-line"></i>
+                <div class="info">
+                    <h4>secure payments</h4>
+                    <p>100% security</p>
+                </div>
+            </div>
+            <div class="box">
+                <i class="ri-store-line"></i>
+                <div class="info">
+                    <h4>best deal</h4>
+                    <p>weekly offer</p>
+                </div>
+            </div>
+        </div>
+    </section>    
+
+
+    <!-- Feature -->
+
+    <section class="feature" id="feature">
+        <div class="container feature-container">
+            <div class="col">
+                <h3>Hot Deals</h3>
+                <div class="item">
+                    <div class="image">
+                        <img src="assets/item-1.jpg" alt="">
+                        <span>30%</span>
+                    </div>
+                    <div class="info">
+                        <h5>Men casual black T-shirt</h5>
+                        <div class="rating">
+                            <div>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-line"></i>
+                            </div>
+                            <span>(1122)</span>
+                        </div>
+                        <div class="price">
+                            <span>99.00$</span>
+                            <span>77.00$</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="image">
+                        <img src="assets/item-2.jpg" alt="">
+                        <span>30%</span>
+                    </div>
+                    <div class="info">
+                        <h5>Men casual black T-shirt</h5>
+                        <div class="rating">
+                            <div>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-line"></i>
+                            </div>
+                            <span>(1122)</span>
+                        </div>
+                        <div class="price">
+                            <span>99.00$</span>
+                            <span>77.00$</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="image">
+                        <img src="assets/item-3.jpg" alt="">
+                        <span>30%</span>
+                    </div>
+                    <div class="info">
+                        <h5>Men casual black T-shirt</h5>
+                        <div class="rating">
+                            <div>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-line"></i>
+                            </div>
+                            <span>(1122)</span>
+                        </div>
+                        <div class="price">
+                            <span>99.00$</span>
+                            <span>77.00$</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="image">
+                        <img src="assets/item-4.jpg" alt="">
+                        <span>30%</span>
+                    </div>
+                    <div class="info">
+                        <h5>Men casual black T-shirt</h5>
+                        <div class="rating">
+                            <div>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-line"></i>
+                            </div>
+                            <span>(1122)</span>
+                        </div>
+                        <div class="price">
+                            <span>99.00$</span>
+                            <span>77.00$</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <div class="col">
+                <h3>Feature Products</h3>
+                <div class="item">
+                    <div class="image">
+                        <img src="assets/item-5.jpg" alt="">
+                        <span>30%</span>
+                    </div>
+                    <div class="info">
+                        <h5>Men casual black T-shirt</h5>
+                        <div class="rating">
+                            <div>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-line"></i>
+                            </div>
+                            <span>(1122)</span>
+                        </div>
+                        <div class="price">
+                            <span>99.00$</span>
+                            <span>77.00$</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="image">
+                        <img src="assets/item-6.jpg" alt="">
+                        <span>30%</span>
+                    </div>
+                    <div class="info">
+                        <h5>Men casual black T-shirt</h5>
+                        <div class="rating">
+                            <div>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-line"></i>
+                            </div>
+                            <span>(1122)</span>
+                        </div>
+                        <div class="price">
+                            <span>99.00$</span>
+                            <span>77.00$</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="image">
+                        <img src="assets/item-7.jpg" alt="">
+                        <span>30%</span>
+                    </div>
+                    <div class="info">
+                        <h5>Men casual black T-shirt</h5>
+                        <div class="rating">
+                            <div>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-line"></i>
+                            </div>
+                            <span>(1122)</span>
+                        </div>
+                        <div class="price">
+                            <span>99.00$</span>
+                            <span>77.00$</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="image">
+                        <img src="assets/item-8.jpg" alt="">
+                        <span>30%</span>
+                    </div>
+                    <div class="info">
+                        <h5>Men casual black T-shirt</h5>
+                        <div class="rating">
+                            <div>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-line"></i>
+                            </div>
+                            <span>(1122)</span>
+                        </div>
+                        <div class="price">
+                            <span>99.00$</span>
+                            <span>77.00$</span>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+             <div class="col">
+                <h3>Best Seller</h3>
+                <div class="item">
+                    <div class="image">
+                        <img src="assets/item-9.jpg" alt="">
+                        <span>30%</span>
+                    </div>
+                    <div class="info">
+                        <h5>Men casual black T-shirt</h5>
+                        <div class="rating">
+                            <div>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-line"></i>
+                            </div>
+                            <span>(1122)</span>
+                        </div>
+                        <div class="price">
+                            <span>99.00$</span>
+                            <span>77.00$</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="image">
+                        <img src="assets/item-10.jpg" alt="">
+                        <span>30%</span>
+                    </div>
+                    <div class="info">
+                        <h5>Men casual black T-shirt</h5>
+                        <div class="rating">
+                            <div>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-line"></i>
+                            </div>
+                            <span>(1122)</span>
+                        </div>
+                        <div class="price">
+                            <span>99.00$</span>
+                            <span>77.00$</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="image">
+                        <img src="assets/item-11.jpg" alt="">
+                        <span>30%</span>
+                    </div>
+                    <div class="info">
+                        <h5>Men casual black T-shirt</h5>
+                        <div class="rating">
+                            <div>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-line"></i>
+                            </div>
+                            <span>(1122)</span>
+                        </div>
+                        <div class="price">
+                            <span>99.00$</span>
+                            <span>77.00$</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="image">
+                        <img src="assets/item (14).jpg" alt="">
+                        <span>30%</span>
+                    </div>
+                    <div class="info">
+                        <h5>Men casual black T-shirt</h5>
+                        <div class="rating">
+                            <div>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-line"></i>
+                            </div>
+                            <span>(1122)</span>
+                        </div>
+                        <div class="price">
+                            <span>99.00$</span>
+                            <span>77.00$</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Banner -->
+
+    <section class="banner" id="banner">
+        <div class="container banner-container">
+            <div class="left">
+                <div class="image">
+                    <div class="layer"></div>
+                    <img src="assets/banner-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h5>Discount offer</h5>
+                    <h3>Summer 2023</h3>
+                    <span>60% off</span>
+                    <div class="countdown">
+                        <div>
+                            <span>Days</span>
+                            <span>01</span>
+                        </div>
+                        <div>
+                            <span>Hours</span>
+                            <span>23</span>
+                        </div>
+                        <div>
+                            <span>Min</span>
+                            <span>55</span>
+                        </div>
+                        <div>
+                            <span>Sec</span>
+                            <span>60</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="layer"></div>
+                <div class="image">
+                    <img src="assets/banner-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h5>Trend 2023</h5>
+                    <h3>Men Canvas S</h3>
+                    <div class="price">99$ <span>200$</span></div>
+                    <button class="btn">Shop now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SHOP -->
+<section class="shop" id="shop">
+    <div class="title">
+        <h2>Our Products</h2>
+    </div>
+    <div class="container shop-container">
+        <div class="item">
+            <div class="image">
+                <img src="assets/item (10).jpg" alt="">
+            </div>
+            <h4>Men casual black T-shirt</h4>
+            <div class="rating">
+                <div>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-line"></i>
+                </div>
+                <span>(1122)</span>
+            </div>
+            <div class="price">
+                <span>99.00$</span>
+                <span>77.00$</span>
+            </div>
+            <div class="icons">
+                <i class="ri-heart-fill"></i>
+                <i class="ri-eye-fill"></i>
+                <i class="ri-shopping-cart-fill"></i>
+            </div>
+        </div>
+        <div class="item">
+            <div class="image">
+                <img src="assets/item (11).jpg" alt="">
+            </div>
+            <h4>Men casual black T-shirt</h4>
+            <div class="rating">
+                <div>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-line"></i>
+                </div>
+                <span>(1122)</span>
+            </div>
+            <div class="price">
+                <span>99.00$</span>
+                <span>77.00$</span>
+            </div>
+            <div class="icons">
+                <i class="ri-heart-fill"></i>
+                <i class="ri-eye-fill"></i>
+                <i class="ri-shopping-cart-fill"></i>
+            </div>
+        </div>
+        <div class="item">
+            <div class="image">
+                <img src="assets/item (12).jpg" alt="">
+            </div>
+            <h4>Men casual black T-shirt</h4>
+            <div class="rating">
+                <div>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-line"></i>
+                </div>
+                <span>(1122)</span>
+            </div>
+            <div class="price">
+                <span>99.00$</span>
+                <span>77.00$</span>
+            </div>
+            <div class="icons">
+                <i class="ri-heart-fill"></i>
+                <i class="ri-eye-fill"></i>
+                <i class="ri-shopping-cart-fill"></i>
+            </div>
+        </div>
+        <div class="item">
+            <div class="image">
+                <img src="assets/item (13).jpg" alt="">
+            </div>
+            <h4>Men casual black T-shirt</h4>
+            <div class="rating">
+                <div>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-line"></i>
+                </div>
+                <span>(1122)</span>
+            </div>
+            <div class="price">
+                <span>99.00$</span>
+                <span>77.00$</span>
+            </div>
+            <div class="icons">
+                <i class="ri-heart-fill"></i>
+                <i class="ri-eye-fill"></i>
+                <i class="ri-shopping-cart-fill"></i>
+            </div>
+        </div>
+        <div class="item">
+            <div class="image">
+                <img src="assets/item (14).jpg" alt="">
+            </div>
+            <h4>Men casual black T-shirt</h4>
+            <div class="rating">
+                <div>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-line"></i>
+                </div>
+                <span>(1122)</span>
+            </div>
+            <div class="price">
+                <span>99.00$</span>
+                <span>77.00$</span>
+            </div>
+            <div class="icons">
+                <i class="ri-heart-fill"></i>
+                <i class="ri-eye-fill"></i>
+                <i class="ri-shopping-cart-fill"></i>
+            </div>
+        </div>
+        <div class="item">
+            <div class="image">
+                <img src="assets/item (15).jpg" alt="">
+            </div>
+            <h4>Men casual black T-shirt</h4>
+            <div class="rating">
+                <div>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-line"></i>
+                </div>
+                <span>(1122)</span>
+            </div>
+            <div class="price">
+                <span>99.00$</span>
+                <span>77.00$</span>
+            </div>
+            <div class="icons">
+                <i class="ri-heart-fill"></i>
+                <i class="ri-eye-fill"></i>
+                <i class="ri-shopping-cart-fill"></i>
+            </div>
+        </div>
+        <div class="item">
+            <div class="image">
+                <img src="assets/item-4.jpg" alt="">
+            </div>
+            <h4>Men casual black T-shirt</h4>
+            <div class="rating">
+                <div>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-line"></i>
+                </div>
+                <span>(1122)</span>
+            </div>
+            <div class="price">
+                <span>99.00$</span>
+                <span>77.00$</span>
+            </div>
+            <div class="icons">
+                <i class="ri-heart-fill"></i>
+                <i class="ri-eye-fill"></i>
+                <i class="ri-shopping-cart-fill"></i>
+            </div>
+        </div>
+        <div class="item">
+            <div class="image">
+                <img src="assets/item-3.jpg" alt="">
+            </div>
+            <h4>Men casual black T-shirt</h4>
+            <div class="rating">
+                <div>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-line"></i>
+                </div>
+                <span>(1122)</span>
+            </div>
+            <div class="price">
+                <span>99.00$</span>
+                <span>77.00$</span>
+            </div>
+            <div class="icons">
+                <i class="ri-heart-fill"></i>
+                <i class="ri-eye-fill"></i>
+                <i class="ri-shopping-cart-fill"></i>
+            </div>
+        </div>
+        <div class="item">
+            <div class="image">
+                <img src="assets/item-5.jpg" alt="">
+            </div>
+            <h4>Men casual black T-shirt</h4>
+            <div class="rating">
+                <div>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-line"></i>
+                </div>
+                <span>(1122)</span>
+            </div>
+            <div class="price">
+                <span>99.00$</span>
+                <span>77.00$</span>
+            </div>
+            <div class="icons">
+                <i class="ri-heart-fill"></i>
+                <i class="ri-eye-fill"></i>
+                <i class="ri-shopping-cart-fill"></i>
+            </div>
+        </div>
+        <div class="item">
+            <div class="image">
+                <img src="assets/item-6.jpg" alt="">
+            </div>
+            <h4>Men casual black T-shirt</h4>
+            <div class="rating">
+                <div>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-line"></i>
+                </div>
+                <span>(1122)</span>
+            </div>
+            <div class="price">
+                <span>99.00$</span>
+                <span>77.00$</span>
+            </div>
+            <div class="icons">
+                <i class="ri-heart-fill"></i>
+                <i class="ri-eye-fill"></i>
+                <i class="ri-shopping-cart-fill"></i>
+            </div>
+        </div>
+    </div>
+    <ul class="pagination container">
+        <li><a href="#">Prev</a></li>
+        <li><a href="#">01</a></li>
+        <li><a href="#">02</a></li>
+        <li><a href="#">03</a></li>
+        <li><a href="#">Next</a></li>
+    </ul>
+</section>
+
+
+<!-- TESTIMONIALS -->
+
+<section class="testimonials">
+    <div class="container testimonials-container">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="assets/person1.jpg" />
+                  <blockquote><i>Lorem, ipsum dolor sit amet, 
+                    consectetur adipisicing elit. Architecto adipisci corporis 
+                    maiores natus dicta voluptas sapiente voluptates asperiores 
+                    libero nesciunt quis!</i></blockquote>
+                    <h5>Aliсe Doe</h5>
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/person2.jpg" />
+                    <blockquote><i>Lorem, ipsum dolor sit amet, 
+                      consectetur adipisicing elit. Architecto adipisci corporis 
+                      maiores natus dicta voluptas sapiente voluptates asperiores 
+                      libero nesciunt quis!</i></blockquote>
+                      <h5>Aliсe Doe</h5>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="assets/person3.jpg" />
+                    <blockquote><i>Lorem, ipsum dolor sit amet, 
+                      consectetur adipisicing elit. Architecto adipisci corporis 
+                      maiores natus dicta voluptas sapiente voluptates asperiores 
+                      libero nesciunt quis!</i></blockquote>
+                      <h5>Aliсe Doe</h5>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="assets/person4.jpg" />
+                    <blockquote><i>Lorem, ipsum dolor sit amet, 
+                      consectetur adipisicing elit. Architecto adipisci corporis 
+                      maiores natus dicta voluptas sapiente voluptates asperiores 
+                      libero nesciunt quis!</i></blockquote>
+                      <h5>Aliсe Doe</h5>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="assets/person5.jpg" />
+                    <blockquote><i>Lorem, ipsum dolor sit amet, 
+                      consectetur adipisicing elit. Architecto adipisci corporis 
+                      maiores natus dicta voluptas sapiente voluptates asperiores 
+                      libero nesciunt quis!</i></blockquote>
+                      <h5>Aliсe Doe</h5>
+                  </div>
+                  <div class="swiper-slide">
+                        <img src="assets/person6.jpg" />
+                        <blockquote><i>Lorem, ipsum dolor sit amet, 
+                        consectetur adipisicing elit. Architecto adipisci corporis 
+                        maiores natus dicta voluptas sapiente voluptates asperiores 
+                        libero nesciunt quis!</i></blockquote>
+                        <h5>Aliсe Doe</h5>
+                 </div>
+                 <div class="swiper-slide">
+                    <img src="assets/person7.jpg" />
+                    <blockquote><i>Lorem, ipsum dolor sit amet, 
+                    consectetur adipisicing elit. Architecto adipisci corporis 
+                    maiores natus dicta voluptas sapiente voluptates asperiores 
+                    libero nesciunt quis!</i></blockquote>
+                    <h5>Aliсe Doe</h5>
+             </div>
+            </div>
+          </div>
+    </div>
+</section>
+
+<!-- CONTACTS -->
+
+<section class="contact" id="contact">
+    <div class="title">
+        <h2>Contact Us</h2>
+    </div>
+    <div class="container contact-container">
+        <div class="left">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387194.06233169313!2d-74.30933130533079!3d40.697019276105976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2z0J3RjNGOLdCZ0L7RgNC6LCDQodCo0JA!5e0!3m2!1sru!2s!4v1698834680246!5m2!1sru!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="right">
+            <form action="" class="contact-form">
+                <div class="form-name">
+                    <input type="text" name="First Name" placeholder="First Name" required>
+                    <input type="text" name="Last Name" placeholder="Last Name" required>
+                </div>
+                <input type="email" name="Email Adress" placeholder="Your Email Address" required>
+                <textarea name="Message"  rows="7" placeholder="Your message here..." required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+
+<footer class="footer">
+    <div class="container footer-container">
+        <div class="box">
+            <div class="logo">
+                <div>designers</div>
+                <div>store</div>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quas consectetur!</p>
+            <img src="assets/payments.png" alt="">
+        </div>
+        <div class="box">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="#">about</a></li>
+                <li><a href="#">blogs</a></li>
+                <li><a href="#">terms & conditions</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">return / exchange</a></li>
+                <li><a href="#">product services</a></li>
+            </ul>
+        </div>
+        <div class="box">
+            <h4>Customer Care</h4>
+            <ul>
+                <li><a href="#">my account</a></li>
+                <li><a href="#">order tracking</a></li>
+                <li><a href="#">whishlist</a></li>
+                <li><a href="#">product support</a></li>
+            </ul>
+        </div>
+        <div class="box">
+            <h4>Newsletter</h4>
+            <form action="" class="newsletter">
+                <label for="email"></label>
+                <input type="email" id="email" placeholder="Enter your email...">
+                <button type="submit" class="btn">Subscribe</button>
+            </form>
+            <div class="social-icons">
+                <i class="ri-facebook-fill"></i>
+                <i class="ri-linkedin-fill"></i>
+                <i class="ri-github-fill"></i>
+                <i class="ri-instagram-fill"></i>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<a href="#" class="scroll-btn"><i class="ri-arrow-up-fill"></i></a>
+
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
